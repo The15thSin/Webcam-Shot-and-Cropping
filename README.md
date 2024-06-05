@@ -8,5 +8,5 @@ The screenshots of this project are embedded below:
 ![image](https://github.com/The15thSin/Webcam-Shot-and-Cropping/assets/90421936/be84d062-7ae3-4f89-803f-1038688a44c0)
 ![image](https://github.com/The15thSin/Webcam-Shot-and-Cropping/assets/90421936/b445eae3-50d6-46b0-93e5-66a518120dc1)
 
-
+*Please Note : This app does not have compatibilty on mobile devices. As it requires Capacitor Library. The compatibility for the Mobile devices is under construction. Open Source Contributors are always welcome...*
 
