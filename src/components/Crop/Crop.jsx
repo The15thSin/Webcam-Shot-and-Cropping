@@ -14,7 +14,7 @@ function Crop() {
     const [rotation, setRotation] = useState(0)
     const [croppedImage, setCroppedImage] = useState(null)
     const [croppedAreaPixels, setCroppedAreaPixels] = useState(null)
-    
+
     // const image = 'https://picsum.photos/id/64/600/400'
     const image = location.state.image
     // console.log(image)
@@ -40,6 +40,8 @@ function Crop() {
 
     return (
         <div className='Crop'>
+            <h1 style={{ textAlign: "center", marginTop: "2rem" }}>Webcam Image Capture</h1>
+
             <div className='cropper-container'>
                 <Cropper
                     image={image}
@@ -86,7 +88,7 @@ function Crop() {
                         className='save-button'
                         onClick={saveCroppedImage}
                     >
-                        Save        
+                        Save
                     </button>
                 </span>
             </div>
