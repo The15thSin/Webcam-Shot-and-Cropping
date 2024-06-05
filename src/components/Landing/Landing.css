@@ -1,0 +1,94 @@
+.Landing{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    height: fit-content;
+    margin: 4rem 2rem;
+}
+
+.webcam-span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.landing-webcam{
+    border: 2px solid rgba(184, 164, 138, 0.5);
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.526);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.landing-webcam p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flex;
+    padding: 0.2rem 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.captured-span{
+    /* background-color: cyan; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.capture-btn button{
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: rgb(0, 181, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.capture-btn button:hover{
+    background-color: green;
+    color: white;
+}
+
+.captured-image{
+    width: 80%;
+}
+
+.captured-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.final-btn button{
+    margin-top: 2rem;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: rgb(0, 181, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.final-btn button:hover{
+    background-color: green;
+    color: white;
+}
